@@ -1,9 +1,12 @@
 #site-banner {
-    position: relative;
     background-color: #FFFF00;
     width: 100%;
     height: 50px;
     transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #site-banner:hover {
@@ -11,27 +14,19 @@
     height: 75px;
 }
 
-#banner-flex-container {
-    width: 50%;
-    height: 100%;
-    top: 50%;
-    display: flex;
-    flex-direction: row;
-}
-
 #banner-text {
     position: relative;
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    color: #2c2c2c;
-    font-family: Audiowide;
-    text-align: center;
-    font-size: 100%;
-    width: 100%;
-    height: 50%;
+    width: 40%;
+    height: 25px;
 
+    font-family: Audiowide;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+
+    color: #2c2c2c;
     background-color: rgba(255, 255, 0, 0);
+
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -39,20 +34,23 @@
 }
 #banner-button {
     position: relative;
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
+
+    width: 20%;
+    height: 50%;
+
     color: #2c2c2c;
+    background-color: rgba(255, 255, 0, 0);
+
     font-family: Audiowide;
     text-align: center;
     font-size: 100%;
-    width: 100%;
-    height: 50%;
-
+    
     border-radius: 5px;
     border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
 
-    background-color: rgba(255, 255, 0, 0);
+
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
