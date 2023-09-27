@@ -49,6 +49,9 @@
     width: 100%;
     height: 50%;
 
+    border-radius: 25%;
+    border-style: solid;
+
     background-color: #FFFF00;
     -webkit-user-select: none;
     -moz-user-select: none;
