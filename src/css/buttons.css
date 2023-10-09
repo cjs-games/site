@@ -4,7 +4,7 @@
     border-color: #FFFF00;
     border-style: solid;
     font-size: xx-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Audiowide;
     border-width: 5px;
     border-radius: 11px;
     padding: 15px 30px;
@@ -16,7 +16,7 @@
 .button-1:hover {
     transform: scale(1.1);
     box-shadow: 0 0 20px;
-    rgba(255, 255, 0, 0.7);
+    rgba(0, 255, 0, 0.7);
 }
 
 .button-2 {
@@ -57,3 +57,7 @@
     box-shadow: 0 0 20px;
     rgba(0, 255, 0, 0.7);
 }
+@font-face{
+    font-family: Audiowide;
+    src: url(sansation_light.woff);
+  }
