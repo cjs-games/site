@@ -1,3 +1,6 @@
+:root {
+    --size-increase-button: 0.9
+}
 body {
     width: 100%;
     height: 100%;
