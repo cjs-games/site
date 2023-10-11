@@ -9,7 +9,6 @@ body {
     justify-content: center;
     align-items: center;
     font-family: AudioWide;
-
 }
 
 #root {
@@ -26,5 +25,5 @@ body {
 }
 @font-face {
     font-family: Audiowide;
-    src: url(../src/fonts/Audiowide-Regular.ttf);
+    src: url(../fonts/Audiowide-Regular.ttf);
 }

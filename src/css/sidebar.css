@@ -9,7 +9,7 @@
   transition-duration: 0.2s;
 }
 
-#sidebar:hover {
+#sidebar.open {
   left: 0;
 }
 
