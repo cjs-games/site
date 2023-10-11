@@ -26,5 +26,5 @@ body {
 }
 @font-face {
     font-family: Audiowide;
-    src: url(src/fonts/Audiowide-Regular.ttf);
+    src: url(../src/fonts/Audiowide-Regular.ttf);
 }
