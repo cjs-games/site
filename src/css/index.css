@@ -17,6 +17,13 @@ body {
     height: 100%;
     display: flex;
 }
+
+.flex-horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 @font-face {
     font-family: Audiowide;
     src: url(/src/fonts/Audiowide-Regular.ttf);
