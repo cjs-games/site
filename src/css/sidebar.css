@@ -1,17 +1,25 @@
+/* src/css/sidebar.css */
+
 #sidebar {
   position: fixed;
   top: 0;
-  left: -245px;
-  height: 100%;
-  width: 250px;
-  background-color: #000000;
-
-  transition-duration: 0.2s;
+  left: -299px;
+  width: 300px;
+  height: 100vh;
+  background-color: #2c2c2c;
+  transition: left 0.5s;
+  z-index: 9999;
 }
 
-#sidebar.open {
+#sidebar:hover {
   left: 0;
 }
+
+#sidebar-content {
+  padding: 20px;
+}
+
+/* Add your desired styling for the sidebar content here */
 
 #sidebar-title {
   position: relative;
